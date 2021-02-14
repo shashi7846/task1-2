@@ -1,0 +1,31 @@
+var cat = {
+ name: 'Fluffy',
+ activities: ['play', 'eat cat food'],
+ catFriends: 
+     [{
+
+ name: 'bar',
+ activities:['be grumpy’, ‘eat bread omlet'],
+ weight: 8,
+ furcolor: 'red'
+ }, 
+ {
+ name: 'foo',
+ activities: ['sleep', 'pre-sleep naps'],
+ weight: 3
+ }]
+};
+cat.name="fluffyy";
+cat.height=100;
+cat.furcolor="revelon";
+console.log(cat.name);
+console.log(cat.height);
+console.log(cat.furcolor);
+len = cat.catFriends.length;
+for(i=0;i<len;i++)
+
+console.log(cat.catFriends[i].activities);
+len = cat.catFriends.length;
+for(j=0;j<len;j++)
+console.log(cat.catFriends[j].name);
+

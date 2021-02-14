@@ -1,0 +1,7 @@
+var object = {name : "RajiniKant", age : 33, hasPets : false};
+function printAllValues(obj)
+{
+    console.log(Object.values(object));
+console.log(object.keys(object));
+}
+printAllValues();

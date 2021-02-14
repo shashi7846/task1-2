@@ -1,0 +1,9 @@
+var arr = ["GUVI", "I", "am", "a geek"];
+ function transformFirstAndLast(arr) {
+ var newobj={};
+ var newarr=arr.length;
+ 
+ newobj[arr[0]]=arr[newarr-1];
+ return newobj;
+ }
+ console.log(transformFirstAndLast(arr))
